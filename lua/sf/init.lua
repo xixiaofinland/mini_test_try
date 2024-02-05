@@ -1,8 +1,4 @@
-local Tree = require('nvim-treesitter')
+local A = require('a')
 local Sf = {}
-
-Sf.get = function()
-  return 'hello'
-end
 
 return Sf
