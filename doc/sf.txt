@@ -1,0 +1,32 @@
+==============================================================================
+------------------------------------------------------------------------------
+*sf* Global features for sf.nvim
+*Sf*
+
+=====================================================
+
+Features:
+
+- global fields shared among all sf modules.
+- global functions shared among all sf modules.
+
+------------------------------------------------------------------------------
+                                                                 *Sf.last_tests*
+                                `Sf.last_tests`
+It stores the last executed Apex test command so we can re-run by `require('sf.term').repeat_last_tests()`.
+
+------------------------------------------------------------------------------
+                                                                 *Sf.target_org*
+                                `Sf.target_org`
+It's meant to be used by statusline (like lualine) to display target_org information.
+
+------------------------------------------------------------------------------
+                                                                      *Sf.get()*
+                                   `Sf.get`()
+Return `target_org` field value or throw error when it's empty
+
+Return ~
+`(string)`
+
+
+ vim:tw=78:ts=8:noet:ft=help:norl:
